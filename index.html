@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tuff and fight fitness</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            border: 0px;
+            background: url('img/abs.jpg');
+        }
+        .left{
+            /* border: 2px solid red; */
+            /* width: 15%; */
+            display: inline-block;
+            position: absolute;
+            left: 12px;
+            top:10px;
+        }
+        .mid{
+            /* border: 2px solid blue; */
+            margin: 10px auto;
+            width: 30%;
+        }
+        .right{
+            /* border: 2px solid green; */
+            /* width: 100px; */
+            display: inline-block;
+            position: absolute;
+            right: 12px;
+            top: 10px;
+        }
+        .navbar li{
+            display: inline-block;
+            color: white;
+            font-size: 15px;
+        }
+        a{
+            color: rgb(29, 212, 59);
+            text-decoration: none;
+            padding: 30px 10px;
+            font-size: 18px;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: grey;
+        }
+        .left img{
+            width: 136px;
+            filter: invert(100%);
+            padding: 2px 15px;
+        }
+        .left div{
+            text-align: center;
+            line-height: 19px;
+            font-size: 35px;
+            color: rgb(228, 22, 22);
+            padding: 10px;
+            font-family: 'Italianno', cursive;
+        }
+        .btn{
+            margin: 0px 5px;
+            padding: 5px 10px;
+            border-radius: 13px;
+            cursor: pointer;
+            background-color: rgb(17, 20, 194);
+            color: red;
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            border: 2px solid red;
+            font-size: 13px;
+            margin: 106px 22px;
+            padding: 12px 39px;
+            /* left: 25px; */
+            width: 30%;
+            height: 350px;
+            border-radius: 10px;
+        }
+        .container h3{
+            text-align: center;
+            font-size: 40px;
+            font-family:'Italianno', cursive;
+            color: red;
+        }
+        .formgroup input{
+text-align:center ;
+display: block; 
+width: 227px;
+border: 2px solid #ff0000;
+margin: 4px auto;
+background-color: white;
+color: black;
+font-size: 18px;
+border-radius: 8px;
+text-decoration: none;
+        }
+        .btn1{
+            border-radius: 8px;
+            display: block;
+            margin:10px auto;
+            color:black;
+            background-color:rgb(29, 212, 59);
+            cursor: pointer;
+        }
+        .btn1:hover{
+            background-color: red;
+        }
+        .formgroup select{
+            font-size: 15px;
+
+        }
+        .formgroup{
+             font-size:20px ;
+             text-align: center;
+             margin: auto;
+        }
+        label{
+            /* border: 2px solid red; */
+            /* margin:2px 2px; */
+            /* padding: 2px 2px; */
+            /* top: 50px; */
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+         <img src="img/logo.png" alt="">
+         <div>Fight & Fitness</div>
+        </div>
+        <div class="mid">
+<ul class="navbar">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">contact us</a></li>
+    <li> <a href="about us.html">About us</a></li>
+    <li> <a href="#">Fitness Calculator</a></li>
+</ul>
+        </div>
+        <div class="right">
+<button class="btn">Call us</button>
+<button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h3>Join the best gym now</h3>
+<form action="noaction.php">
+   
+    <div class="formgroup">
+        
+        <input type="text" name="" placeholder="Enter your name">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter your age">
+    </div>
+    <!-- <label for="">Weight</label> -->
+    <div class="formgroup">
+       <input type="text" name="" placeholder="Enter your weight">
+    </div>
+    <div class="formgroup">
+        Gender: <select name="" id="">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            <option value="o">Others</option>
+        </select>
+    </div>
+    <!-- <label for="1">height</label> -->
+    <div class="formgroup">
+        <input type="text" name="" id="1" placeholder="Enter your height">
+    </div>
+    <button class="btn1">Submit</button>
+    
+</form>
+    </div>
+</body>
+</html>
